@@ -1,4 +1,15 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# LibZeno - Library Management System
+
+LibZeno is a comprehensive SaaS platform designed to help library owners manage their study room businesses efficiently. Built with Next.js, LibZeno provides tools for managing multiple library locations, handling seat bookings, and processing student subscriptions.
+
+## Features
+
+- 📚 **Multi-Library Management** - Manage multiple library locations from a single dashboard
+- 🪑 **Seat Booking System** - Students can book seats with flexible monthly subscriptions
+- 💳 **Payment Processing** - Automated billing and subscription management
+- 🏢 **Room Management** - Organize multiple rooms within each library
+- 📊 **Analytics & Reporting** - Track occupancy, revenue, and bookings in real-time
+- 📱 **Mobile-First Design** - Responsive interface for both students and owners
 
 ## Getting Started
 
