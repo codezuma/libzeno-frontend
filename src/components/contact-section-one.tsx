@@ -10,17 +10,17 @@ export default function ContactSection() {
     return (
         <section id="contact" className="bg-muted py-15 sm:py-24 lg:py-32">
             <div className="mx-auto max-w-4xl px-4 lg:px-0">
-                <h1 className="text-4xl font-semibold lg:text-5xl">Get Started with LibZeno</h1>
-                <p className="text-muted-foreground mt-4 text-lg">We'll help you find the right plan for your library management needs.</p>
+                <h1 className="text-4xl font-semibold lg:text-5xl">Get Started with Libzbook</h1>
+                <p className="text-muted-foreground mt-4 text-lg">Let's discuss how Libzbook can help modernize your library management. Reach out for a demo or to learn more about our solutions.</p>
                 <div className="mt-12 grid gap-12 lg:grid-cols-5">
                     <div className="grid grid-cols-2 lg:col-span-2 lg:block lg:space-y-12">
                         <div className="flex flex-col justify-between space-y-6">
                             <div>
                                 <h2 className="mb-3 text-lg font-semibold">Sales & Support</h2>
                                 <Link
-                                    href="mailto:hello@libzeno.com"
+                                    href="mailto:hello@lebzino.com"
                                     className="text-primary text-lg hover:underline">
-                                    hello@libzeno.com
+                                    hello@lebzino.com
                                 </Link>
                                 <p className="mt-3 text-sm">+91 70233 67766</p>
                             </div>
@@ -29,9 +29,9 @@ export default function ContactSection() {
                             <div>
                                 <h3 className="mb-3 text-lg font-semibold">Partnerships</h3>
                                 <Link
-                                    href="mailto:partners@libzeno.com"
+                                    href="mailto:partners@lebzino.com"
                                     className="text-primary text-lg hover:underline">
-                                    partners@libzeno.com
+                                    partners@lebzino.com
                                 </Link>
                                 <p className="mt-3 text-sm">+91 70233 67766</p>
                             </div>
@@ -42,8 +42,8 @@ export default function ContactSection() {
                         action=""
                         className="@container lg:col-span-3">
                         <Card className="p-8 sm:p-12">
-                            <h3 className="text-xl font-semibold">Let's discuss your library needs</h3>
-                            <p className="mt-4 text-sm">Tell us about your library business and we'll show you how LibZeno can help you manage it better.</p>
+                            <h3 className="text-xl font-semibold">Discuss Your Library Management Needs</h3>
+                            <p className="mt-4 text-sm">Tell us about your institution and library. We'll show you how Libzbook can streamline your operations and improve efficiency.</p>
 
                             <div className="**:[&>label]:block mt-12 space-y-6 *:space-y-3">
                                 <div className="@md:grid-cols-2 grid gap-3 *:space-y-3">

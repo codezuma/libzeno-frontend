@@ -7,28 +7,28 @@ export default function FAQs() {
     const faqItems = [
         {
             id: 'item-1',
-            question: 'How does LibZeno help manage multiple libraries?',
-            answer: 'LibZeno allows you to manage multiple library locations from a single dashboard. Each library can have multiple rooms with different seating arrangements, and you can track bookings, payments, and occupancy across all locations in real-time.',
+            question: 'What is Lebzino?',
+            answer: 'Lebzino is a software company focused on building specialized applications for small businesses. We create purpose-built tools that solve specific problems exceptionally well, starting with Libzbook for library management.',
         },
         {
             id: 'item-2',
-            question: 'How do students book seats?',
-            answer: 'Students can browse available seats in different rooms, select their preferred location, and book seats on a monthly subscription basis. They can view availability in real-time and make secure payments directly through the platform.',
+            question: 'What is Libzbook?',
+            answer: 'Libzbook is our flagship product — a comprehensive library management application designed for schools, colleges, and educational institutions. It handles book cataloging, member management, circulation tracking, fines, and reporting.',
         },
         {
             id: 'item-3',
-            question: 'What payment methods are supported?',
-            answer: 'We support all major credit cards, debit cards, UPI, net banking, and digital wallets. Automated recurring billing ensures seamless monthly subscription payments without manual intervention.',
+            question: 'Who is Libzbook designed for?',
+            answer: 'Libzbook is built for educational institutions including schools, colleges, universities, and community libraries. It\'s designed to be intuitive for librarians and administrators without requiring technical expertise.',
         },
         {
             id: 'item-4',
-            question: 'Can I customize room layouts and pricing?',
-            answer: "Yes, LibZeno is fully customizable. You can define different room types, set individual seat pricing, create custom subscription plans, and adjust availability based on your library's needs.",
+            question: 'What are the key features of Libzbook?',
+            answer: 'Libzbook includes complete book cataloging with ISBN lookup, member management, issue/return tracking, automated fine calculation, comprehensive reports and analytics, barcode support, and multi-user access with role-based permissions.',
         },
         {
             id: 'item-5',
-            question: 'Is there a mobile app for students and owners?',
-            answer: 'Yes, we provide mobile apps for both students and library owners. Students can book and manage their subscriptions on the go, while owners can monitor their libraries, view analytics, and handle bookings from anywhere.',
+            question: 'Will Lebzino launch other products?',
+            answer: 'Yes! We\'re committed to building multiple applications for small businesses. After Libzbook, we plan to expand into other areas like PG management and more. Each product will maintain our focus on quality and solving real problems.',
         },
     ]
 
@@ -37,7 +37,7 @@ export default function FAQs() {
             <div className="mx-auto max-w-5xl px-4 md:px-6">
                 <div>
                     <h2 className="text-foreground text-4xl font-semibold">Frequently Asked Questions</h2>
-                    <p className="text-muted-foreground mt-4 text-balance text-lg">Discover quick and comprehensive answers to common questions about our platform, services, and features.</p>
+                    <p className="text-muted-foreground mt-4 text-balance text-lg">Learn more about Lebzino, our Libzbook product, and how we help educational institutions manage their libraries.</p>
                 </div>
 
                 <div className="mt-12">

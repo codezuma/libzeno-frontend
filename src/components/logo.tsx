@@ -4,6 +4,9 @@ export const Logo = ({ className, uniColor }: { className?: string; uniColor?: b
     return (
         <div className={cn('flex items-center gap-2', className)}>
             <img src="/logo.png" alt="LibZeno Logo" className="h-12 w-auto" />
+            <span>
+                <span className="font-bold">Libzino</span>
+            </span>
         </div>
     )
 }

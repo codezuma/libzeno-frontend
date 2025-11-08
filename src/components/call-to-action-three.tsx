@@ -8,15 +8,15 @@ export default function StatsSection() {
             <div className="bg-muted py-12">
                 <div className="mx-auto max-w-5xl px-6">
                     <h2 className="text-foreground max-w-lg text-balance text-3xl font-semibold lg:text-4xl">
-                        <span className="text-muted-foreground">Streamline Your Library Operations.</span> Grow Your Business
+                        <span className="text-muted-foreground">Ready to modernize your library?</span> Start with Libzbook today
                     </h2>
-                    <p className="mt-4 text-lg">Join hundreds of library owners who trust LibZeno to manage their study room bookings and subscriptions efficiently.</p>
+                    <p className="mt-4 text-lg">Join educational institutions that trust Libzbook to manage their libraries efficiently. Simple, reliable, and built for the way you work.</p>
                     <div className="mt-8 flex gap-3">
                         <Button
                             asChild
                             className="pr-2">
                             <Link href="#">
-                                Try LibZeno for Free
+                                Try Libzbook Free
                                 <ChevronRight
                                     strokeWidth={2.5}
                                     className="size-3.5! opacity-50"
@@ -32,7 +32,7 @@ export default function StatsSection() {
                                     className="!size-3.5 opacity-50"
                                     strokeWidth={2.5}
                                 />
-                                Request a Demo
+                                Schedule a Demo
                             </Link>
                         </Button>
                     </div>

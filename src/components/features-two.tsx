@@ -7,8 +7,8 @@ export default function Features() {
             <div className="bg-muted/50 py-24">
                 <div className="mx-auto max-w-5xl px-6">
                     <div>
-                        <h2 className="text-foreground text-4xl font-semibold">Everything You Need to Run Your Library</h2>
-                        <p className="text-muted-foreground mb-12 mt-4 text-balance text-lg">From seat bookings to subscription management, LibZeno provides all the tools you need to efficiently manage your study room business and keep students happy.</p>
+                        <h2 className="text-foreground text-4xl font-semibold">Libzbook: Complete Library Management Solution</h2>
+                        <p className="text-muted-foreground mb-12 mt-4 text-balance text-lg">Everything you need to run a modern library — from book cataloging to member management, all in one intuitive platform designed for educational institutions.</p>
                     </div>
                     <div className="mt-8 grid gap-6 sm:grid-cols-2 md:mt-16 lg:grid-cols-3">
                         <div className="space-y-4">
@@ -33,8 +33,8 @@ export default function Features() {
                                 </div>
                             </Card>
                             <div className="sm:max-w-sm">
-                                <h3 className="text-foreground text-xl font-semibold">Multi-Library Management</h3>
-                                <p className="text-muted-foreground my-4 text-lg">Manage multiple library locations with different rooms and seating arrangements from one dashboard.</p>
+                                <h3 className="text-foreground text-xl font-semibold">Book Cataloging & Inventory</h3>
+                                <p className="text-muted-foreground my-4 text-lg">Organize your entire collection with ISBN lookup, categorization, and real-time inventory tracking.</p>
                             </div>
                         </div>
                         <div className="space-y-4">
@@ -62,8 +62,8 @@ export default function Features() {
                                 </div>
                             </Card>
                             <div className="sm:max-w-sm">
-                                <h3 className="text-foreground text-xl font-semibold">Seat Booking System</h3>
-                                <p className="text-muted-foreground my-4 text-lg">Students can easily book their preferred seats with flexible monthly subscription plans.</p>
+                                <h3 className="text-foreground text-xl font-semibold">Member Management</h3>
+                                <p className="text-muted-foreground my-4 text-lg">Manage students, faculty, and members with complete profiles, borrowing history, and access control.</p>
                             </div>
                         </div>
                         <div className="space-y-4">
@@ -88,8 +88,8 @@ export default function Features() {
                                 </div>
                             </Card>
                             <div className="sm:max-w-sm">
-                                <h3 className="text-foreground text-xl font-semibold">Payment & Subscriptions</h3>
-                                <p className="text-muted-foreground my-4 text-lg">Automated billing and subscription management to keep your revenue flowing smoothly.</p>
+                                <h3 className="text-foreground text-xl font-semibold">Issue & Return Tracking</h3>
+                                <p className="text-muted-foreground my-4 text-lg">Streamlined circulation desk operations with barcode scanning, due date tracking, and automated reminders.</p>
                             </div>
                         </div>
                     </div>
@@ -100,24 +100,24 @@ export default function Features() {
                             <div className="mb-4 rounded-lg bg-blue-500/10 p-3 w-fit">
                                 <BarChart3 className="size-6 text-blue-600 dark:text-blue-400" />
                             </div>
-                            <h3 className="text-foreground text-lg font-semibold mb-2">Analytics & Reports</h3>
-                            <p className="text-muted-foreground text-sm">Track occupancy rates, revenue, and booking trends with comprehensive analytics.</p>
+                            <h3 className="text-foreground text-lg font-semibold mb-2">Fine Management</h3>
+                            <p className="text-muted-foreground text-sm">Automated fine calculation for overdue books with flexible policies and payment tracking.</p>
                         </Card>
                         
                         <Card className="p-6 hover:shadow-lg transition-shadow">
                             <div className="mb-4 rounded-lg bg-pink-500/10 p-3 w-fit">
                                 <Bell className="size-6 text-pink-600 dark:text-pink-400" />
                             </div>
-                            <h3 className="text-foreground text-lg font-semibold mb-2">Smart Notifications</h3>
-                            <p className="text-muted-foreground text-sm">Automated reminders for payments, booking confirmations, and important updates.</p>
+                            <h3 className="text-foreground text-lg font-semibold mb-2">Reports & Analytics</h3>
+                            <p className="text-muted-foreground text-sm">Comprehensive insights into circulation patterns, popular books, member activity, and collection utilization.</p>
                         </Card>
                         
                         <Card className="p-6 hover:shadow-lg transition-shadow">
                             <div className="mb-4 rounded-lg bg-teal-500/10 p-3 w-fit">
                                 <Users className="size-6 text-teal-600 dark:text-teal-400" />
                             </div>
-                            <h3 className="text-foreground text-lg font-semibold mb-2">Student Management</h3>
-                            <p className="text-muted-foreground text-sm">Maintain student records, attendance tracking, and subscription history in one place.</p>
+                            <h3 className="text-foreground text-lg font-semibold mb-2">Multi-User Access</h3>
+                            <p className="text-muted-foreground text-sm">Role-based access control for librarians, administrators, and staff with secure permission management.</p>
                         </Card>
                     </div>
                 </div>
