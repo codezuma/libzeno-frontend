@@ -1,6 +1,6 @@
 # LibZeno - Library Management System
 
-LibZeno is a comprehensive SaaS platform designed to help library owners manage their study room businesses efficiently. Built with Next.js, LibZeno provides tools for managing multiple library locations, handling seat bookings, and processing student subscriptions.
+LibZeno is a comprehensive SaaS  platform designed to help library owners manage their study room businesses efficiently. Built with Next.js, LibZeno provides tools for managing multiple library locations, handling seat bookings, and processing student subscriptions.
 
 ## Features
 
