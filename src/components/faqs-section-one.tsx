@@ -7,8 +7,8 @@ export default function FAQs() {
     const faqItems = [
         {
             id: 'item-1',
-            question: 'What is Lebzino?',
-            answer: 'Lebzino is a software company focused on building specialized applications for small businesses. We create purpose-built tools that solve specific problems exceptionally well, starting with Libzbook for library management.',
+            question: 'What is Libzeno?',
+            answer: 'Libzeno is a software company focused on building specialized applications for small businesses. We create purpose-built tools that solve specific problems exceptionally well, starting with Libzbook for library management.',
         },
         {
             id: 'item-2',
@@ -27,7 +27,7 @@ export default function FAQs() {
         },
         {
             id: 'item-5',
-            question: 'Will Lebzino launch other products?',
+            question: 'Will Libzeno launch other products?',
             answer: 'Yes! We\'re committed to building multiple applications for small businesses. After Libzbook, we plan to expand into other areas like PG management and more. Each product will maintain our focus on quality and solving real problems.',
         },
     ]
@@ -37,7 +37,7 @@ export default function FAQs() {
             <div className="mx-auto max-w-5xl px-4 md:px-6">
                 <div>
                     <h2 className="text-foreground text-4xl font-semibold">Frequently Asked Questions</h2>
-                    <p className="text-muted-foreground mt-4 text-balance text-lg">Learn more about Lebzino, our Libzbook product, and how we help educational institutions manage their libraries.</p>
+                    <p className="text-muted-foreground mt-4 text-balance text-lg">Learn more about Libzeno, our Libzbook product, and how we help educational institutions manage their libraries.</p>
                 </div>
 
                 <div className="mt-12">

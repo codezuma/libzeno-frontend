@@ -6,7 +6,7 @@ import FooterSection from "@/components/footer";
 import BentoGrid from "@/components/kokonutui/bento-grid";
 import ShapeHero from "@/components/kokonutui/shape-hero";
 import { HeroHeader } from "@/components/header";
-import WhyLebzino from "@/components/why-lebzino";
+import WhyLibzeno from "@/components/why-Libzeno";
 import ProductRoadmap from "@/components/product-roadmap";
 
 export default function Home() {
@@ -17,7 +17,7 @@ export default function Home() {
       <ShapeHero 
         title1="Smart Business Apps"
         title2="for Real People"
-        description="Lebzino builds purpose-driven software that empowers small businesses. Starting with Libzbook — the modern library management solution trusted by educational institutions."
+        description="Libzeno builds purpose-driven software that empowers small businesses. Starting with Libzbook — the modern library management solution trusted by educational institutions."
         showCTA={true}
       />
       <section className="py-16 bg-gradient-to-br from-white to-neutral-50 dark:from-neutral-900 dark:to-black text-center">
@@ -26,7 +26,7 @@ export default function Home() {
             Empowering Small Businesses with Smart Solutions
           </h2>
           <p className="text-lg md:text-xl mb-8 text-neutral-600 dark:text-neutral-400 leading-relaxed">
-            Lebzino is building an ecosystem of purpose-built applications for small businesses. 
+            Libzeno is building an ecosystem of purpose-built applications for small businesses. 
             We start with one problem, solve it exceptionally well, then move to the next.
           </p>
           <div className="inline-block bg-gradient-to-r from-indigo-500 to-rose-500 p-1 rounded-2xl">
@@ -42,7 +42,7 @@ export default function Home() {
         </div>
       </section>
       <BentoGrid />
-      <WhyLebzino />
+      <WhyLibzeno />
       <ProductRoadmap />
       <Features />
       <CallToAction />

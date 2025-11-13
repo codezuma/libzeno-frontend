@@ -78,7 +78,7 @@ const bentoItems: BentoItem[] = [
         id: "main",
         title: "Purpose-Built Software for Every Business",
         description:
-            "Lebzino is building an ecosystem of focused applications designed to solve real problems. We believe in deep expertise, elegant solutions, and customer success.",
+            "Libzeno is building an ecosystem of focused applications designed to solve real problems. We believe in deep expertise, elegant solutions, and customer success.",
         href: "#",
         feature: "spotlight",
         spotlightItems: [
@@ -99,7 +99,7 @@ const bentoItems: BentoItem[] = [
         href: "#",
         feature: "typing",
         typingText:
-            "// Lebzino Philosophy\n\nconst lebzinoApproach = {\n  focus: 'One problem, exceptional solution',\n  quality: 'Enterprise-grade from day one',\n  users: 'Real people, real needs',\n  support: 'Expert customer success team',\n  vision: 'Ecosystem of focused apps',\n  impact: 'Empowering businesses globally'\n};\n\n// Built with passion and precision",
+            "// Libzeno Philosophy\n\nconst LibzenoApproach = {\n  focus: 'One problem, exceptional solution',\n  quality: 'Enterprise-grade from day one',\n  users: 'Real people, real needs',\n  support: 'Expert customer success team',\n  vision: 'Ecosystem of focused apps',\n  impact: 'Empowering businesses globally'\n};\n\n// Built with passion and precision",
         size: "md",
         className: "col-span-2 row-span-1 col-start-1 col-end-3",
     },
@@ -116,13 +116,13 @@ const bentoItems: BentoItem[] = [
     },
     {
         id: "innovation",
-        title: "Lebzino's Product Evolution",
+        title: "Libzeno's Product Evolution",
         description:
             "From vision to reality: building the future of business software",
         href: "#",
         feature: "timeline",
         timeline: [
-            { year: "2024", event: "Lebzino Launched - Mission Clarity" },
+            { year: "2024", event: "Libzeno Launched - Mission Clarity" },
             { year: "2025", event: "First Product Released Successfully" },
             { year: "2025", event: "Growing Customer Base Worldwide" },
             { year: "2026", event: "Second Product in Development" },
@@ -741,7 +741,7 @@ export default function BentoGrid() {
                             <div className="p-6">
                                 <div className="flex items-center justify-between mb-4">
                                     <h3 className="text-xl font-bold tracking-tight bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                                        Join the Lebzino Community
+                                        Join the Libzeno Community
                                     </h3>
                                 </div>
                                 <p className="text-sm text-neutral-700 dark:text-neutral-300 tracking-tight mb-6">

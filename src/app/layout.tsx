@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LibZeno - Library Management System for Study Rooms",
-  description: "LibZeno is the complete SaaS platform for managing library study rooms. Handle multiple locations, seat bookings, and student subscriptions with ease.",
+  title: "LibZeno - Custom Apps for Small Businesses",
+  description: "LibZeno creates powerful custom applications tailored for small businesses. Transform your business operations with specialized software solutions designed to meet your unique needs.",
 };
 
 export default function RootLayout({

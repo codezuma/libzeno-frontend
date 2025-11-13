@@ -10,7 +10,7 @@ import {
     TrendingUp 
 } from "lucide-react";
 
-export default function WhyLebzino() {
+export default function WhyLibzeno() {
     const problems = [
         {
             icon: Zap,
@@ -80,7 +80,7 @@ export default function WhyLebzino() {
                         className="inline-block mb-4 px-4 py-2 rounded-full bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 dark:border-blue-400/20"
                     >
                         <span className="text-sm font-semibold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                            Why Choose Lebzino
+                            Why Choose Libzeno
                         </span>
                     </motion.div>
 
@@ -97,7 +97,7 @@ export default function WhyLebzino() {
                         variants={fadeInUp}
                         className="text-lg text-neutral-600 dark:text-neutral-300 max-w-2xl mx-auto"
                     >
-                        Businesses are drowning in complexity. Lebzino offers a better way.
+                        Businesses are drowning in complexity. Libzeno offers a better way.
                     </motion.p>
                 </motion.div>
 
@@ -212,7 +212,7 @@ export default function WhyLebzino() {
                         href="#contact"
                         className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-bold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
                     >
-                        Discover Lebzino Today
+                        Discover Libzeno Today
                         <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                         </svg>

@@ -260,7 +260,7 @@ export default function ShapeHero({
                     >
                         <div className="inline-block mb-4 px-4 py-2 rounded-full bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 dark:border-blue-400/20">
                             <span className={cn("text-sm font-semibold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent", pacifico.className)}>
-                                Lebzino
+                                Libzeno
                             </span>
                         </div>
                     </motion.div>
