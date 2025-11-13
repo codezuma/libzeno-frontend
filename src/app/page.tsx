@@ -6,7 +6,7 @@ import FooterSection from "@/components/footer";
 import BentoGrid from "@/components/kokonutui/bento-grid";
 import ShapeHero from "@/components/kokonutui/shape-hero";
 import { HeroHeader } from "@/components/header";
-import WhyLibzeno from "@/components/why-Libzeno";
+import WhyLibzeno from "@/components/why-lebzino";
 import ProductRoadmap from "@/components/product-roadmap";
 
 export default function Home() {

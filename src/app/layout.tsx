@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LibZeno - Custom Apps for Small Businesses",
-  description: "LibZeno creates powerful custom applications tailored for small businesses. Transform your business operations with specialized software solutions designed to meet your unique needs.",
+  title: "libzeno - Custom Apps for Small Businesses",
+  description: "libzeno creates powerful custom applications tailored for small businesses. Transform your business operations with specialized software solutions designed to meet your unique needs.",
   keywords: [
     "custom apps for small business",
     "business software solutions",
@@ -23,11 +23,11 @@ export const metadata: Metadata = {
     "tailored software development",
     "business automation",
     "enterprise software for SMB",
-    "LibZeno",
+    "libzeno",
   ],
-  authors: [{ name: "LibZeno" }],
-  creator: "LibZeno",
-  publisher: "LibZeno",
+  authors: [{ name: "libzeno" }],
+  creator: "libzeno",
+  publisher: "libzeno",
   robots: {
     index: true,
     follow: true,
@@ -43,22 +43,22 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://libzeno.com",
-    title: "LibZeno - Custom Apps for Small Businesses",
-    description: "LibZeno creates powerful custom applications tailored for small businesses. Transform your business operations with specialized software solutions designed to meet your unique needs.",
-    siteName: "LibZeno",
+    title: "libzeno - Custom Apps for Small Businesses",
+    description: "libzeno creates powerful custom applications tailored for small businesses. Transform your business operations with specialized software solutions designed to meet your unique needs.",
+    siteName: "libzeno",
     images: [
       {
         url: "/logo.png",
         width: 1200,
         height: 630,
-        alt: "LibZeno - Custom Apps for Small Businesses",
+        alt: "libzeno - Custom Apps for Small Businesses",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "LibZeno - Custom Apps for Small Businesses",
-    description: "LibZeno creates powerful custom applications tailored for small businesses. Transform your business operations with specialized software solutions designed to meet your unique needs.",
+    title: "libzeno - Custom Apps for Small Businesses",
+    description: "libzeno creates powerful custom applications tailored for small businesses. Transform your business operations with specialized software solutions designed to meet your unique needs.",
     images: ["/logo.png"],
     creator: "@libzeno",
   },
