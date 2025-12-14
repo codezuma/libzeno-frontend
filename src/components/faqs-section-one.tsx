@@ -59,12 +59,7 @@ export default function FAQs() {
                     </Accordion>
 
                     <p className="text-muted-foreground mt-6">
-                        Can't find what you're looking for? Contact our{' '}
-                        <Link
-                            href="#"
-                            className="text-primary font-medium hover:underline">
-                            customer support team
-                        </Link>
+                        Can't find what you're looking for? Contact our customer support team.
                     </p>
                 </div>
             </div>

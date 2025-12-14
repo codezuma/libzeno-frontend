@@ -18,9 +18,9 @@ export default function ContactSection() {
                             <div>
                                 <h2 className="mb-3 text-lg font-semibold">Sales & Support</h2>
                                 <Link
-                                    href="mailto:hello@Libzeno.com"
+                                    href="mailto:libzeno@gmail.com"
                                     className="text-primary text-lg hover:underline">
-                                    hello@Libzeno.com
+                                    libzeno@gmail.com
                                 </Link>
                                 <p className="mt-3 text-sm">+91 70233 67766</p>
                             </div>
@@ -29,9 +29,9 @@ export default function ContactSection() {
                             <div>
                                 <h3 className="mb-3 text-lg font-semibold">Partnerships</h3>
                                 <Link
-                                    href="mailto:partners@Libzeno.com"
+                                    href="mailto:libzeno@gmail.com"
                                     className="text-primary text-lg hover:underline">
-                                    partners@Libzeno.com
+                                    libzeno@gmail.com
                                 </Link>
                                 <p className="mt-3 text-sm">+91 70233 67766</p>
                             </div>
