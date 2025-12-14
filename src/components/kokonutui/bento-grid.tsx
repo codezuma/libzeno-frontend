@@ -239,6 +239,12 @@ const ChartAnimation = ({ value }: { value: number }) => {
 };
 
 const IconsFeature = () => {
+    const handleLearnMoreClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+        e.preventDefault();
+        e.stopPropagation();
+        window.open("https://libzbook.com", "_blank", "noopener,noreferrer");
+    };
+
     return (
         <div className="space-y-4 mt-4">
             <div className="space-y-3">
@@ -259,17 +265,16 @@ const IconsFeature = () => {
                     <span className="text-sm font-medium text-neutral-700 dark:text-neutral-300">99.9% Uptime SLA</span>
                 </div>
             </div>
-            <a 
-                href="https://libzbook.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
+            <button 
+                type="button"
+                onClick={handleLearnMoreClick}
                 className="w-full inline-flex items-center justify-center gap-2 mt-4 px-4 py-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-semibold rounded-lg hover:from-blue-600 hover:to-purple-600 transition-all duration-300"
             >
                 Learn More on Libzbook.com
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
-            </a>
+            </button>
         </div>
     );
 };

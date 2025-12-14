@@ -1,10 +1,5 @@
-import { Card } from '@/components/ui/card'
-import { Input } from '@/components/ui/input'
-import { Textarea } from '@/components/ui/textarea'
-import { Button } from '@/components/ui/button'
-import { Label } from '@/components/ui/label'
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import Link from 'next/link'
+import ContactForm from '@/components/contact-form'
 
 export default function ContactSection() {
     return (
@@ -38,83 +33,9 @@ export default function ContactSection() {
                         </div>
                     </div>
 
-                    <form
-                        action=""
-                        className="@container lg:col-span-3">
-                        <Card className="p-8 sm:p-12">
-                            <h3 className="text-xl font-semibold">Discuss Your Library Management Needs</h3>
-                            <p className="mt-4 text-sm">Tell us about your institution and library. We'll show you how Libzbook can streamline your operations and improve efficiency.</p>
-
-                            <div className="**:[&>label]:block mt-12 space-y-6 *:space-y-3">
-                                <div className="@md:grid-cols-2 grid gap-3 *:space-y-3">
-                                    <div>
-                                        <Label
-                                            htmlFor="name"
-                                            className="space-y-2">
-                                            Full name
-                                        </Label>
-                                        <Input
-                                            type="text"
-                                            id="name"
-                                            required
-                                        />
-                                    </div>
-                                    <div>
-                                        <Label htmlFor="email">Work Email</Label>
-                                        <Input
-                                            type="email"
-                                            id="email"
-                                            required
-                                        />
-                                    </div>
-                                </div>
-                                <div>
-                                    <Label htmlFor="country">Country/Region</Label>
-                                    <Select>
-                                        <SelectTrigger>
-                                            <SelectValue placeholder="Select a country" />
-                                        </SelectTrigger>
-                                        <SelectContent>
-                                            <SelectItem value="1">DR Congo</SelectItem>
-                                            <SelectItem value="2">United States</SelectItem>
-                                            <SelectItem value="3">France</SelectItem>
-                                        </SelectContent>
-                                    </Select>
-                                </div>
-                                <div className="@md:grid-cols-2 grid gap-3 *:space-y-3">
-                                    <div>
-                                        <Label htmlFor="website">Company Website</Label>
-                                        <Input
-                                            type="url"
-                                            id="website"
-                                        />
-                                    </div>
-                                    <div>
-                                        <Label htmlFor="job">Job function</Label>
-                                        <Select>
-                                            <SelectTrigger>
-                                                <SelectValue placeholder="Select a job function" />
-                                            </SelectTrigger>
-                                            <SelectContent>
-                                                <SelectItem value="1">Finance</SelectItem>
-                                                <SelectItem value="2">Education</SelectItem>
-                                                <SelectItem value="3">Legal</SelectItem>
-                                                <SelectItem value="4">More</SelectItem>
-                                            </SelectContent>
-                                        </Select>
-                                    </div>
-                                </div>
-                                <div>
-                                    <Label htmlFor="msg">Message</Label>
-                                    <Textarea
-                                        id="msg"
-                                        rows={3}
-                                    />
-                                </div>
-                                <Button>Submit</Button>
-                            </div>
-                        </Card>
-                    </form>
+                    <div className="lg:col-span-3">
+                        <ContactForm />
+                    </div>
                 </div>
             </div>
         </section>
