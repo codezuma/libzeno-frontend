@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "libzeno - Custom Apps for Small Businesses",
-  description: "libzeno creates powerful custom applications tailored for small businesses. Transform your business operations with specialized software solutions designed to meet your unique needs.",
+  title: "libzeno - Custom Apps for Businesses ",
+  description: "libzeno creates powerful custom applications tailored for Businesses . Transform your business operations with specialized software solutions designed to meet your unique needs.",
   keywords: [
     "custom apps for small business",
     "business software solutions",
@@ -43,22 +43,22 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://libzeno.com",
-    title: "libzeno - Custom Apps for Small Businesses",
-    description: "libzeno creates powerful custom applications tailored for small businesses. Transform your business operations with specialized software solutions designed to meet your unique needs.",
+    title: "libzeno - Custom Apps for Businesses ",
+    description: "libzeno creates powerful custom applications tailored for Businesses . Transform your business operations with specialized software solutions designed to meet your unique needs.",
     siteName: "libzeno",
     images: [
       {
         url: "/logo.png",
         width: 1200,
         height: 630,
-        alt: "libzeno - Custom Apps for Small Businesses",
+        alt: "libzeno - Custom Apps for Businesses ",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "libzeno - Custom Apps for Small Businesses",
-    description: "libzeno creates powerful custom applications tailored for small businesses. Transform your business operations with specialized software solutions designed to meet your unique needs.",
+    title: "libzeno - Custom Apps for Businesses ",
+    description: "libzeno creates powerful custom applications tailored for Businesses . Transform your business operations with specialized software solutions designed to meet your unique needs.",
     images: ["/logo.png"],
     creator: "@libzeno",
   },
