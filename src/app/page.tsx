@@ -17,16 +17,16 @@ export default function Home() {
       <ShapeHero 
         title1="Smart Business Apps"
         title2="for Real People"
-        description="Libzeno builds purpose-driven software that empowers small businesses. Starting with Libzbook — the modern library management solution trusted by educational institutions."
+        description="Libzeno builds purpose-driven software that empowers Businesses . Starting with Libzbook — the modern library management solution trusted by educational institutions."
         showCTA={true}
       />
       <section className="py-16 bg-gradient-to-br from-white to-neutral-50 dark:from-neutral-900 dark:to-black text-center">
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-neutral-900 dark:text-neutral-100">
-            Empowering Small Businesses with Smart Solutions
+            Empowering Businesses  with Smart Solutions
           </h2>
           <p className="text-lg md:text-xl mb-8 text-neutral-600 dark:text-neutral-400 leading-relaxed">
-            Libzeno is building an ecosystem of purpose-built applications for small businesses. 
+            Libzeno is building an ecosystem of purpose-built applications for Businesses . 
             We start with one problem, solve it exceptionally well, then move to the next.
           </p>
           <div className="inline-block bg-gradient-to-r from-indigo-500 to-rose-500 p-1 rounded-2xl">

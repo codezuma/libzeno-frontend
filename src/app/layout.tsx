@@ -66,6 +66,17 @@ export const metadata: Metadata = {
     canonical: "https://libzeno.com",
   },
   metadataBase: new URL("https://libzeno.com"),
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/logo.png", type: "image/png" },
+    ],
+    apple: [
+      { url: "/logo.png", type: "image/png" },
+    ],
+    shortcut: "/favicon.ico",
+  },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({

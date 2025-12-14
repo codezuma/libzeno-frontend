@@ -8,7 +8,7 @@ export default function FAQs() {
         {
             id: 'item-1',
             question: 'What is Libzeno?',
-            answer: 'Libzeno is a software company focused on building specialized applications for small businesses. We create purpose-built tools that solve specific problems exceptionally well, starting with Libzbook for library management.',
+            answer: 'Libzeno is a software company focused on building specialized applications for Businesses . We create purpose-built tools that solve specific problems exceptionally well, starting with Libzbook for library management.',
         },
         {
             id: 'item-2',
@@ -28,7 +28,7 @@ export default function FAQs() {
         {
             id: 'item-5',
             question: 'Will Libzeno launch other products?',
-            answer: 'Yes! We\'re committed to building multiple applications for small businesses. After Libzbook, we plan to expand into other areas like PG management and more. Each product will maintain our focus on quality and solving real problems.',
+            answer: 'Yes! We\'re committed to building multiple applications for Businesses . After Libzbook, we plan to expand into other areas like PG management and more. Each product will maintain our focus on quality and solving real problems.',
         },
     ]
 
