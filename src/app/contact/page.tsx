@@ -64,6 +64,17 @@ export default function ContactPage() {
                       Phone: <a href="tel:+917023367766" className="text-primary hover:underline">+91 70233 67766</a>
                     </p>
                   </div>
+                   <div>
+                     <h3 className="text-lg font-semibold mb-2 text-neutral-900 dark:text-neutral-100">
+                       Registered Address
+                     </h3>
+                     <address className="text-neutral-700 dark:text-neutral-300 not-italic">
+                       C/O KURIYA PATIDAR,<br />
+                       NEAR MORDI BUS STAND,<br />
+                       Chitri, Dungarpur,<br />
+                       Dungarpur- 314035, Rajasthan
+                     </address>
+                   </div>
                 </div>
               </div>
 

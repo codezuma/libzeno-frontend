@@ -31,6 +31,17 @@ export default function ContactSection() {
                                 <p className="mt-3 text-sm">+91 70233 67766</p>
                             </div>
                         </div>
+                           <div className="flex flex-col justify-between space-y-6 pt-2">
+                               <div>
+                                   <h4 className="mb-2 text-base font-semibold">Registered Address</h4>
+                                   <address className="text-muted-foreground text-sm not-italic pl-1">
+                                       C/O KURIYA PATIDAR,<br />
+                                       NEAR MORDI BUS STAND,<br />
+                                       Chitri, Dungarpur,<br />
+                                       Dungarpur- 314035, Rajasthan
+                                   </address>
+                               </div>
+                           </div>
                     </div>
 
                     <div className="lg:col-span-3">
