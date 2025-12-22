@@ -13,26 +13,28 @@ export default function ContactSection() {
                             <div>
                                 <h2 className="mb-3 text-lg font-semibold">Sales & Support</h2>
                                 <Link
-                                    href="mailto:libzeno@gmail.com"
+                                    href="mailto:info@libzeno.com"
                                     className="text-primary text-lg hover:underline">
-                                    libzeno@gmail.com
+                                    info@libzeno.com
                                 </Link>
-                                <p className="mt-3 text-sm">+91 70233 67766</p>
+                                <p className="mt-3 text-sm">+91 78499 01618</p>
                             </div>
                         </div>
                         <div className="flex flex-col justify-between space-y-6">
                             <div>
                                 <h3 className="mb-3 text-lg font-semibold">Partnerships</h3>
                                 <Link
-                                    href="mailto:libzeno@gmail.com"
+                                    href="mailto:info@libzeno.com"
                                     className="text-primary text-lg hover:underline">
-                                    libzeno@gmail.com
+                                    info@libzeno.com
                                 </Link>
-                                <p className="mt-3 text-sm">+91 70233 67766</p>
+                                <p className="mt-3 text-sm">+91 78499 01618</p>
                             </div>
                         </div>
                            <div className="flex flex-col justify-between space-y-6 pt-2">
                                <div>
+                                   <h4 className="mb-2 text-base font-semibold">Company</h4>
+                                   <div className="text-muted-foreground text-sm pl-1 mb-2">Libzeno Technologies Private Limited</div>
                                    <h4 className="mb-2 text-base font-semibold">Registered Address</h4>
                                    <address className="text-muted-foreground text-sm not-italic pl-1">
                                        C/O KURIYA PATIDAR,<br />
@@ -40,6 +42,7 @@ export default function ContactSection() {
                                        Chitri, Dungarpur,<br />
                                        Dungarpur- 314035, Rajasthan
                                    </address>
+                                   <div className="text-muted-foreground mt-4 text-xs">© 2025 Libzeno Technologies Private Limited. All rights reserved.</div>
                                </div>
                            </div>
                     </div>
