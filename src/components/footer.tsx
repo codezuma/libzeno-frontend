@@ -32,9 +32,6 @@ export default function FooterSection() {
         <footer className="border-b bg-white py-12 dark:bg-transparent">
             <div className="mx-auto max-w-5xl px-6">
                 <div className="flex flex-wrap justify-between gap-6">
-                    <span className="text-muted-foreground order-last block text-center text-sm md:order-first">
-                        © {new Date().getFullYear()} Libzeno Technologies Pvt. Ltd. All rights reserved.
-                    </span>
                     <div className="order-first flex flex-wrap justify-center gap-6 text-sm md:order-last">
                         {links.map((link, index) => (
                             <Link
@@ -44,6 +41,13 @@ export default function FooterSection() {
                                 <span>{link.title}</span>
                             </Link>
                         ))}
+                    </div>
+                    <div className="order-last block text-center text-sm md:order-first">
+                        <div>
+                            <a href="mailto:info@libzeno.com" className="hover:underline">info@libzeno.com</a> | <a href="tel:+917849901618" className="hover:underline">+917849901618</a>
+                        </div>
+                        <div>Libzeno Technologies Private Limited</div>
+                        <div className="text-muted-foreground mt-2">© 2025 Libzeno Technologies Private Limited. All rights reserved.</div>
                     </div>
                 </div>
             </div>
